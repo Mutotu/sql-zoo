@@ -75,6 +75,7 @@ SELECT yr, subject, winner
  WHERE yr = 1950;
 
 --2
+SELECT winner
   FROM nobel
  WHERE yr = 1962
    AND subject = 'Literature';
@@ -133,7 +134,7 @@ SELECT winner, subject
 
 
 SELECT matchid, player FROM goal
-
+  WHERE teamid = 'GER';
 --2
 SELECT id,stadium,team1,team2
   FROM game
